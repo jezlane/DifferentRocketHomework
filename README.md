@@ -28,6 +28,6 @@ Think all these technologies are great, however they vary in their readiness for
 - **JSONata** -- most robust of the technologies and probably ready for production setting
 - **lit-html** -- Replaced by Lit (lit.dev)
 - **haunted** -- Looking forward to it being implemented with Lit, before a production setting
-- **IPFS** -- Interesting replacement to CDNs and other browser plans to include native connection
+- **IPFS** -- Interesting replacement to CDNs and other static data in general. Interested in other browser plans to include native connection
 
 ### Thanks
