@@ -15,6 +15,9 @@ Developing this site didn't require a build process to be installed.
 - **IPFS** -- Secure Peer-to-peer hosting framework
 
 ### Demo location
+
+- on Github Pages 
+-- https://jezlane.github.io/DifferentRocketHomework/index.html
 - via CloudFlare
 -- https://cloudflare-ipfs.com/ipfs/QmT8U55yGYENEAdj397hNFqWRT5pXpiw853jFxuH7a1s2m
 - via IPFS direct
