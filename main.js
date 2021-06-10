@@ -2,7 +2,7 @@ let hoteldataSource = "";
 
 //Fetch Hotel Data in JOSN format
 async function fetchData() {
-    let response = await fetch('/data/rest-rates-formatted.JSON');
+    let response = await fetch('data/rest-rates-formatted.JSON');
     let data = await response.json();
     let hoteldata = await data.results.hotels;
     hoteldataSource = {hotels: hoteldata};
