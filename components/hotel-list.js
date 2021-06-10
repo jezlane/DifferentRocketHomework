@@ -5,8 +5,11 @@ import HotelCard from './hotel-card.js'
 customElements.define('hotel-card', component(HotelCard));
 
 export default function Counter({ cardnumber, hoteldata }) {
+    let data = [];
+    if (hoteldata !== "undefined") {
+        data = JSON.parse(hoteldata);
+    }
 
-    let data = JSON.parse(hoteldata);
     let hotelCards = [];
     let numHotels = cardnumber < data.length ? cardnumber : data.length;
 
@@ -14,11 +17,13 @@ export default function Counter({ cardnumber, hoteldata }) {
         hotelCards[i] = html`<hotel-card .hoteldata=${data[i]}></hotel-card>`;
       }
 
-    return html`
-        ${hotelCards.map(value => (value))}
-    `;
+    return (numHotels > 0) ? 
+        html`
+            ${hotelCards.map(value => (value))}
+        `: 
+        "Sorry no results";
+;
 }
 
-//defineElement("hotel-list", Counter);
 Counter.observedAttributes = ["cardnumber","hoteldata"];
 customElements.define('hotel-list', component(Counter));
