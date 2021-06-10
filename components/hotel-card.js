@@ -16,7 +16,7 @@ export default function HotelCard({ hoteldata }) {
     <div class="hotel-card" key="907">
         <div
             class="image"
-            style="background-image: url(${hoteldata.hotelStaticContent.mainImage.url}), url(/images/hotel.svg)">
+            style="background-image: url(${hoteldata.hotelStaticContent.mainImage.url}), url(../images/hotel.svg)">
         </div>
         <div class="hotel-details">
             <div class="hotel-name">
