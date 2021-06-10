@@ -33,4 +33,12 @@ Think all these technologies are great, however they vary in their readiness for
 - **haunted** -- Looking forward to it being implemented with Lit, before a production setting
 - **IPFS** -- Interesting replacement to CDNs and other static data in general. Interested in other browser plans to include native connection
 
+### Sources
+
+- **JSONata** -- (https://jsonata.org/)
+- **lit-html** -- (https://lit-html.polymer-project.org/) 
+- **Lit** -- (https://lit.dev/)
+- **haunted** -- (https://github.com/matthewp/haunted)
+- **IPFS** -- (https://ipfs.io/)
+
 ### Thanks
