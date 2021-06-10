@@ -9,36 +9,36 @@ Using these technologies does not require an installation process or a build pro
 Developing this site didn't require a build process to be installed. 
 
 ### Technologies used
-- **JSONata** -- like XLST for JSON, a JSON query and transformation language
-- **lit-html** -- HTML templating library for JavaScript (superseded by Lit)
-- **haunted** -- React-like Hooks API but for web components
-- **IPFS** -- Secure Peer-to-peer hosting framework
+- **JSONata** - like XLST for JSON, a JSON query and transformation language
+- **lit-html** - HTML templating library for JavaScript (superseded by Lit)
+- **haunted** - React-like Hooks API but for web components
+- **IPFS** - Secure Peer-to-peer hosting framework
 
 ### Demo location
 
 - on Github Pages 
--- https://jezlane.github.io/DifferentRocketHomework/index.html
+    https://jezlane.github.io/DifferentRocketHomework/index.html
 - via CloudFlare
--- https://cloudflare-ipfs.com/ipfs/QmT8U55yGYENEAdj397hNFqWRT5pXpiw853jFxuH7a1s2m
+    https://cloudflare-ipfs.com/ipfs/QmT8U55yGYENEAdj397hNFqWRT5pXpiw853jFxuH7a1s2m
 - via IPFS direct
--- http://ipfs.io/ipfs/QmT8U55yGYENEAdj397hNFqWRT5pXpiw853jFxuH7a1s2m
+    http://ipfs.io/ipfs/QmT8U55yGYENEAdj397hNFqWRT5pXpiw853jFxuH7a1s2m
 
 - with a Brave Browser you can use the native connection:
--- ipfs://bafybeichfnx2tn4hsdtlujemrgislnhgg6l3ajuhtjxmaxugmqr5nbsdhy/
+    [ipfs://bafybeichfnx2tn4hsdtlujemrgislnhgg6l3ajuhtjxmaxugmqr5nbsdhy/](ipfs://bafybeichfnx2tn4hsdtlujemrgislnhgg6l3ajuhtjxmaxugmqr5nbsdhy/)
 
 ### Conclusion
 Think all these technologies are great, however they vary in their readiness for production:
-- **JSONata** -- most robust of the technologies and probably ready for production setting
-- **lit-html** -- Replaced by Lit (lit.dev)
-- **haunted** -- Looking forward to it being implemented with Lit, before a production setting
-- **IPFS** -- Interesting replacement to CDNs and other static data in general. Interested in other browser plans to include native connection
+- **JSONata** - most robust of the technologies and probably ready for production setting. 
+- **lit-html** - Replaced by Lit (lit.dev)
+- **haunted** - Looking forward to it being implemented with Lit, before a production setting.
+- **IPFS** - Interesting replacement to CDNs and other static data in general. Interested in other browser plans to include native connection.~
 
 ### Sources
 
-- **JSONata** -- (https://jsonata.org/)
-- **lit-html** -- (https://lit-html.polymer-project.org/) 
-- **Lit** -- (https://lit.dev/)
-- **haunted** -- (https://github.com/matthewp/haunted)
-- **IPFS** -- (https://ipfs.io/)
+- **JSONata** - https://jsonata.org/
+- **lit-html** - https://lit-html.polymer-project.org/
+- **Lit** - https://lit.dev/
+- **haunted** - https://github.com/matthewp/haunted
+- **IPFS** - https://ipfs.io/
 
 ### Thanks
