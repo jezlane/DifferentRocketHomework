@@ -37,7 +37,6 @@ const filterHotelData = (hoteldata, filterdata) => {
     if (filterdata?.sort) {
         Object.entries(filterdata.sort).forEach((entry) => {
             const [key, value] = entry;
-            console.log(key, value);
             if (key === "price") {
                 sortStr = sortOperators[value];
             }
@@ -48,7 +47,7 @@ const filterHotelData = (hoteldata, filterdata) => {
         "hotels": 
             $sort(
                 $filter(hotels, function($v) {
-                    $contains($v.hotelStaticContent.name, "${searchStr}")
+                    $contains($lowercase($v.hotelStaticContent.name), $lowercase("${searchStr}"))
                 }),
                 function($l, $r) {
                     $l.lowestAveragePrice.amount ${sortStr} $r.lowestAveragePrice.amount
