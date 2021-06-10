@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results with Web Components</title>
+    <script type="module" src="components/hotel-list.js"></script>
+    <script type="module" src="components/hotel-filter.js"></script>
+    <script type="module" src="components/message-emitter.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsonata/jsonata.min.js"></script> 
+    <link rel="stylesheet" href="style.css">
+    <style>
+    :root {
+        --primary-color: #16f; /*#6DBA4A*/
+        --secondary-color: #ff7;
+        --background-color: white;
+    }
+    div {
+        color:green;
+    }
+    </style>
+</head>
+<body>
+
+    <hotel-filter filterdata=""></hotel-filter>
+    <hotel-list cardnumber="20" hoteldata=""></hotel-list>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

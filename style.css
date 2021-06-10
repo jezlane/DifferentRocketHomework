@@ -1,0 +1,12 @@
+
+body {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-column-gap: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background: powderblue;
+}
+
+
